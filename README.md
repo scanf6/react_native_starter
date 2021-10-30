@@ -1,8 +1,4 @@
-# Modify name and displayname in app.json
-# Modify app_name in android/app/src/main/res/values/strings.xml
-# Modify name in package.json
-# Modify rootProject.name in android settings.gradle
-# Modify applicationId in android/app/build.gradle
+# Modify every places where the name react_native_starter is mentionned TODO: I will make a script for that
 # run yarn install
 # cd into android
 # run in CMD ./gradlew clean

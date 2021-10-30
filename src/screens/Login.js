@@ -5,12 +5,13 @@ import {
     TouchableOpacity
 
 } from 'react-native';
+import {COLORS} from '../constants'
 
 const Login = ({ navigation }) => {
     return (
         <View>
             <TouchableOpacity onPress={() => navigation.navigate('RootHome')}>
-                <Text>Login Page</Text>
+                <Text style={{color: COLORS.lightLime}}>Login Page</Text>
             </TouchableOpacity>
         </View>
     )
